@@ -1,0 +1,12 @@
+<div ng-show="preferredShops.length > 0" class="col-xs-3 border border-primary rounded m-2 repeated-item" ng-repeat="shop in preferredShops">
+    <name-and-image-shop></name-and-image-shop>
+    <div class="row align-items-end justify-content-around m-2">
+        <a href="#" class="col-6 mr-auto text-center btn btn-danger btn-sm" style="left: 0px; right: 2px;" ng-click="removeThisShop(shop.id)">
+            <div class="shopBtn pt-1 pb-1">Remove</div>
+        </a>
+    </div>
+    <remove-button></remove-button>
+    <info-shop></info-shop>
+</div>
+
+<label ng-hide="preferredShops.length > 0" id="noPreferredShop" class="col text-center">No shop liked yet</label>

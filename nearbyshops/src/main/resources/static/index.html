@@ -1,0 +1,56 @@
+<!doctype html>
+<html ng-app='myApp'>
+  <head>
+    <base href="/">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Righteous|Yantramanav" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="js/scripts/angularjs/1.6.9/angular.min.js"></script>
+    <script src="js/scripts/angularjs/1.6.9/angular-route.min.js"></script>
+    <script src="js/scripts/angularjs/1.6.9/angular-cookies.min.js"></script>
+    <script src="js/scripts/angularjs/1.6.9/angular-messages.min.js"></script>
+    <script src="js/scripts/angularjs/1.6.9/angular-animate.min.js"></script>
+    <script src="js/scripts/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/app/app.js"></script>
+    <link rel="stylesheet" href="css/bootstrap/4.1.1/bootstrap.min.css"/>
+    <!-- bootstrap.bundle.min.js includes popper  -->
+    <script src="js/scripts/bootstrap/4.1.1/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css"/>
+    
+    <script src="js/app/controllers/AllShopsController.js"></script>
+    <script src="js/app/services/ShopService.js"></script>
+    <script src="js/app/services/UserService.js"></script>
+    <script src="js/app/controllers/NearbyShopsController.js"></script>
+    <script src="js/app/controllers/PreferredShopsController.js"></script>
+    <script src="js/app/controllers/LoginController.js"></script>
+    <script src="js/app/controllers/SignupController.js"></script>
+    <script src="js/app/directives/main.js"></script>
+    <script src="js/app/directives/nameAndImageShop.js"></script>
+    <script src="js/app/directives/infoShop.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto">
+          <a class="nav-item nav-link" ng-show="!authenticated" id="menuLogin" href="/login">Login</a>
+          <a class="nav-item nav-link" ng-show="!authenticated" id="menuSignup" href="/signup">Sign Up</a>
+          <a class="nav-item nav-link" ng-show="authenticated" ng-controller="LoginController" ng-click="logout()">Logout</a>
+        </div>
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link" href="/all-shops">All Shops</a>
+          <a class="nav-item nav-link" ng-show="authenticated" href="/nearby-shops">Nearby Shops</a>
+          <a class="nav-item nav-link" ng-show="authenticated" href="/preferred-shops">My preferred Shops</a>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <main></main>
+      <!-- <div class="row main {{animDir}}" ng-view></div> -->
+    </div>
+    <script src="js/scripts/styles.js"></script>
+  </body>
+</html>

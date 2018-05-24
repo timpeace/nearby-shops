@@ -1,0 +1,141 @@
+.login-form{
+    margin-top: 100px !important; 
+}
+/* show hand cursor (instead of arrow cursor) to ng-click */
+[ng-click],
+[data-ng-click],
+[x-ng-click] {
+    cursor: pointer;
+}
+
+.shopName{
+  font-family: 'Abril Fatface', 'cursive';
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.shopBtn{
+  color: #fff;
+  font-family: 'Righteous', sans-serif;
+}
+
+#noPreferredShop{
+  margin-top: 190px;
+  font-size: 28px;
+  font-family: 'Righteous', sans-serif;
+}
+
+/* ANIMATIONS */
+
+.repeated-item.ng-enter, .repeated-item.ng-move {
+    transition: all 0.5s linear;
+    opacity: 0;
+  }
+.repeated-item.ng-enter-stagger {
+  transition-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.repeated-item.ng-enter.ng-enter-active,
+.repeated-item.ng-move.ng-move-active {
+  opacity: 1;
+}
+
+.repeated-item.ng-leave {
+  animation: 0.5s my_animation;
+}
+
+@keyframes my_animation {
+  from { opacity: 1; }
+  to   { opacity: 0; }
+}
+
+
+.main.bottom2top.ng-enter {
+  transition:0.8s linear all;
+  opacity:0;
+  transform: translateY(40px);
+}
+
+.main.bottom2top.ng-enter.ng-enter-active {
+  opacity:1;
+  transform: translateY(0);
+}
+
+.main.top2bottom.ng-enter {
+  transition:0.8s linear all;
+  opacity:0;
+  transform: translateY(-40px);
+}
+
+.main.top2bottom.ng-enter.ng-enter-active {
+  opacity:1;
+  transform: translateY(0);
+}
+
+
+.welcome{
+  transition: all linear 1s;
+}
+.welcome.ng-hide {
+  opacity: 0;
+}
+
+
+/* Tooltip text */
+
+.tooltiptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: black;
+  color: #fff;
+  /*text-align: center;*/
+  font-family: 'Yantramanav', sans-serif;
+  padding: 5px 1px;
+  border-radius: 6px;
+  margin-left: 4px;
+  font-size: 12px;
+  position: absolute;
+  z-index: 1;
+}
+
+.repeated-item:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltiptext::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+/* LOGIN MESSAGE */
+
+.loginMessage {
+  text-align: center;
+  color:red;
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}

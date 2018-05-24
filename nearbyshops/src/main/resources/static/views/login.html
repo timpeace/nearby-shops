@@ -1,0 +1,19 @@
+<div class="login-form col-md-4 offset-md-4">
+    <form name="loginForm" ng-submit="login(loginForm)"> 
+        <div class="form-group" ng-model="loginMessage.loginMessageLabel" name="loginMessageLabel">
+            <div ng-messages="loginForm.loginMessageLabel.$error">
+                <div id="loginMessage" class="loginMessage" ng-message="showMessage">{{loginMessageTxt}}</div>
+            </div>
+        </div>
+        <div class="form-group">
+        <input type="text" id="username" name="username" ng-model="credentials.username" class="form-control" placeholder="Username">
+        </div>
+        <div class="form-group">
+        <input type="password" id="password" name="password" ng-model="credentials.password" class="form-control" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Login</button>
+    </form>
+    <div class="row align-items-start justify-content-center m-2">
+        <label class="mr-auto ml-auto"><a href="/signup">Don't have an account? Sign Up now</a></label>
+    </div>
+</div>

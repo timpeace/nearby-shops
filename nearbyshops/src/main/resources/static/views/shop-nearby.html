@@ -1,0 +1,13 @@
+<div class="col-xs-3 border border-primary rounded m-2 repeated-item" ng-repeat="shop in nearbyShops" >
+    <name-and-image-shop></name-and-image-shop>
+    <div class="row align-items-end justify-content-around m-2">
+        <a ng-href="" class="col mr-auto text-center btn btn-danger btn-sm" ng-click="dislikeThisShop(shop.id)">
+            <div class="shopBtn pt-1 pb-1"><i class="material-icons" style="font-size:11px;margin-right:4px;">thumb_down</i>Dislike</div>
+        </a>
+        &nbsp;
+        <a ng-href="" class="col ml-auto text-center btn btn-success btn-sm" ng-click="likeThisShop(shop.id)">
+            <div class="shopBtn pt-1 pb-1"><i class="material-icons" style="font-size:11px;margin-right:4px;">thumb_up</i>Like</div>
+        </a>
+    </div>
+    <info-shop></info-shop>
+</div>
