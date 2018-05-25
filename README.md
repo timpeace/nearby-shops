@@ -34,7 +34,7 @@ Web application that allows users to see the list of nearby shops, as well as to
 <br/>Every shop entity contains: name, picture, city, email, location.
 <br/>To import this database, you need to extract the "**shops.zip**" file.
 <br/>The exctracted folder named "**shops**" must contains 2 files: **shops.bson** and **shops.metadata.json**
-<br/>Then execute the command below :
+<br/>Then execute the command below (on cmd/terminal console for windows/mac):
 ```
 mongorestore --db shops path_to_the_extracted_shops_folder
 ```
@@ -43,5 +43,6 @@ mongorestore --db shops path_to_the_extracted_shops_folder
 To launch this web application, you need to:
 1. Import the "nearbyshops" project in Eclipse.
 2. Make sue your localhost server (wamp/xamp...) is started.
-3. Run "MainNearbyShops.java" class as java application.
-4. Go to http://localhost:8080
+3. On cmd/terminal console, run "**mongod**" command to start mongodb connections.
+4. Run "MainNearbyShops.java" class as java application.
+5. Go to http://localhost:8080
