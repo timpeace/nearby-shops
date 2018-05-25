@@ -1,8 +1,8 @@
 # Nearby Shops
 
 This is a solution for [this web coding challenge](https://github.com/hiddenfounders/web-internship-cc).
-
-This is a mini project developed on Eclips (IDE) with Java/Spring Boot (Back-end) and AngularJs (front-end).
+<br/>
+<br/>This is a mini project developed on Eclips (IDE) with Java/Spring Boot (Back-end) and AngularJs (front-end).
 
 ## Concept
 web application that allows users to see the list of nearby shops, as well as to keep track of their favorite ones.
@@ -17,11 +17,11 @@ web application that allows users to see the list of nearby shops, as well as to
 - [Optional] As a User, I can display the list of preferred shops.
 - [Optional] As a User, I can remove a shop from my preferred shops list.
 
-## Database (MongoDB)
+## Setup the Database
 MongoDB must be installed on your machine.
-To try this application on your localhost, you need first to install [this MongoDB dump shops database](https://github.com/timpeace/nearby-shops/blob/master/shops.zip).
-This is a MongoDB dump shops database contains more than 300 shops.
-To import this database, you need to extract the "shops.zip" file then execute the command below :
+<br/>To try this application on your localhost, you need first to install [this MongoDB dump shops database](https://github.com/timpeace/nearby-shops/blob/master/shops.zip).
+<br/>This is a MongoDB dump shops database contains more than 300 shops.
+<br/>To import this database, you need to extract the "shops.zip" file then execute the command below :
 ```
 mongorestore --db shops <path_to_the_extracted_shops_folder>
 ```
