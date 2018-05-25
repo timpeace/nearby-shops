@@ -30,10 +30,8 @@ Web application that allows users to see the list of nearby shops, as well as to
 
 ## Setup the Database
 - To try this application on your localhost, you need first to install [this MongoDB dump shops database](https://github.com/timpeace/nearby-shops/raw/master/shops.zip) that contains more than 300 shops, every shop entity contains: name, picture, city, email, location.
-<br/>
 - To import this database, you need to extract the "**shops.zip**" file that you downloaded.
 <br/>Just to make sure, the exctracted folder named "**shops**" must contains 2 files: **shops.bson** and **shops.metadata.json**.
-<br/>
 - On your cmd/terminal console for windows/mac, execute the command below:
 ```
 mongorestore --db shops path_to_the_extracted_shops_folder
