@@ -32,7 +32,7 @@ MongoDB must be installed on your machine.
 mongorestore --db shops <path_to_the_extracted_shops_folder>
 ```
 
-## Launch
+## Run the application
 To launch this web application, you need to:
 1. Import the "nearbyshops" project in Eclipse.
 2. Make sue your localhost server (wamp/xamp...) is started.
