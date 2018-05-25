@@ -37,6 +37,7 @@ Web application that allows users to see the list of nearby shops, as well as to
 mongod
 ```
 ![mongod](https://user-images.githubusercontent.com/22826923/40526292-1322f8ee-5fd5-11e8-81ce-92a14c5369b1.jpg)
+<br/>
 ![mongod-2](https://user-images.githubusercontent.com/22826923/40526538-c2503d44-5fd6-11e8-84d7-af27f5d715ae.jpg)
 
 - Open a new cmd/terminal console and execute the command below:
@@ -44,6 +45,7 @@ mongod
 mongorestore --db shops path_to_the_extracted_shops_folder
 ```
 ![mongorestore](https://user-images.githubusercontent.com/22826923/40526296-1821217c-5fd5-11e8-8027-a568a16d4e56.jpg)
+<br/>
 ![mongorestore-2](https://user-images.githubusercontent.com/22826923/40526541-c2d602bc-5fd6-11e8-86d1-55faea5f0dd2.jpg)
 
 - To check if the shops database was successfully installed, execute:
@@ -51,6 +53,7 @@ mongorestore --db shops path_to_the_extracted_shops_folder
 mongo
 ```
 ![mongo](https://user-images.githubusercontent.com/22826923/40526540-c2aa5cc0-5fd6-11e8-9cab-743d02802aa9.jpg)
+<br/>
 ![mongo-2](https://user-images.githubusercontent.com/22826923/40526539-c27d6350-5fd6-11e8-85fb-2dc3557d8ab5.jpg)
 
 ## Run the application
