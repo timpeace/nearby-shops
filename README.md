@@ -36,10 +36,13 @@ Web application that allows users to see the list of nearby shops, as well as to
 ```
 mongod
 ```
+![mongod](https://user-images.githubusercontent.com/22826923/40526292-1322f8ee-5fd5-11e8-81ce-92a14c5369b1.jpg)
+
 - Open a new cmd/terminal console and execute the command below:
 ```
 mongorestore --db shops path_to_the_extracted_shops_folder
 ```
+![mongorestore](https://user-images.githubusercontent.com/22826923/40526296-1821217c-5fd5-11e8-8027-a568a16d4e56.jpg)```
 
 ## Run the application
 To launch this web application, you need to:
