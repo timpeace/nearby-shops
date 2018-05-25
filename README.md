@@ -25,7 +25,7 @@ Web application that allows users to see the list of nearby shops, as well as to
 
 ## Setup the Database
 MongoDB must be installed on your machine.
-<br/>To try this application on your localhost, you need first to install [this MongoDB dump shops database](https://github.com/timpeace/nearby-shops/blob/master/shops.zip).
+<br/>To try this application on your localhost, you need first to install [this MongoDB dump shops database](https://github.com/timpeace/nearby-shops/raw/master/shops.zip).
 <br/>This is a MongoDB dump shops database contains more than 300 shops.
 <br/>To import this database, you need to extract the "shops.zip" file then execute the command below :
 ```
