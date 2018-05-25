@@ -17,6 +17,12 @@ web application that allows users to see the list of nearby shops, as well as to
 - [Optional] As a User, I can display the list of preferred shops.
 - [Optional] As a User, I can remove a shop from my preferred shops list.
 
+
+## Mockups
+![mainpage](https://user-images.githubusercontent.com/22826923/40513579-be12fb2c-5f95-11e8-8ac5-520e42e1f159.png)
+
+![preferredshops](https://user-images.githubusercontent.com/22826923/40513600-ce7f0d70-5f95-11e8-95b9-33c7f8ad77a8.png)
+
 ## Setup the Database
 MongoDB must be installed on your machine.
 <br/>To try this application on your localhost, you need first to install [this MongoDB dump shops database](https://github.com/timpeace/nearby-shops/blob/master/shops.zip).
@@ -25,11 +31,6 @@ MongoDB must be installed on your machine.
 ```
 mongorestore --db shops <path_to_the_extracted_shops_folder>
 ```
-
-## Mockups
-![mainpage](https://user-images.githubusercontent.com/22826923/40513579-be12fb2c-5f95-11e8-8ac5-520e42e1f159.png)
-
-![preferredshops](https://user-images.githubusercontent.com/22826923/40513600-ce7f0d70-5f95-11e8-95b9-33c7f8ad77a8.png)
 
 ## Launch
 To launch this web application, you need to:
