@@ -32,7 +32,7 @@ Web application that allows users to see the list of nearby shops, as well as to
 - To try this application on your localhost, you need first to install [this MongoDB dump shops database](https://github.com/timpeace/nearby-shops/raw/master/shops.zip) that contains more than 300 shops, every shop entity contains: **name, picture, city, email, location**.
 - To import this database, you need to extract the "**shops.zip**" file that you downloaded.
 <br/>Just to make sure, the exctracted folder named "**shops**" must contains 2 files: **shops.bson** and **shops.metadata.json**.
-- On your cmd/terminal console, run "mongod" command to start mongodb connections:
+- On your cmd/terminal console, run "mongod" command to start mongodb server:
 ```
 mongod
 ```
@@ -56,7 +56,7 @@ mongo
 ## Run the application
 To launch this web application, you need to:
 1. Import the "nearbyshops" project in Eclipse.
-2. Make sue your localhost server (wamp/xamp...) is started.
-3. On cmd/terminal console, run "**mongod**" command to start mongodb connections.
+2. Make sure localhost server is started (wamp/xamp...).
+3. Make sure mongodb server is started (with "**mongod**" command).
 4. Run "MainNearbyShops.java" class as java application.
 5. Go to http://localhost:8080
