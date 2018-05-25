@@ -23,13 +23,20 @@ Web application that allows users to see the list of nearby shops, as well as to
 
 ![preferredshops](https://user-images.githubusercontent.com/22826923/40513600-ce7f0d70-5f95-11e8-95b9-33c7f8ad77a8.png)
 
+## Requirements on your machine
+- MongoDB must be installed.
+- Wamp or Xampp to run localhost.
+- Eclipse IDE.
+
 ## Setup the Database
-MongoDB must be installed on your machine.
 <br/>To try this application on your localhost, you need first to install [this MongoDB dump shops database](https://github.com/timpeace/nearby-shops/raw/master/shops.zip).
-<br/>This is a MongoDB dump shops database contains more than 300 shops.
-<br/>To import this database, you need to extract the "shops.zip" file then execute the command below :
+<br/>It is a MongoDB database that contains more than 300 shops.
+<br/>Every shop entity contains: name, picture, city, email, location.
+<br/>To import this database, you need to extract the "**shops.zip**" file.
+<br/>The exctracted folder named "**shops**" must contains 2 files: **shops.bson** and **shops.metadata.json**
+<br/>Then execute the command below :
 ```
-mongorestore --db shops <path_to_the_extracted_shops_folder>
+mongorestore --db shops path_to_the_extracted_shops_folder
 ```
 
 ## Run the application
