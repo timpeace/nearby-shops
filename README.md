@@ -32,4 +32,8 @@ mongorestore --db shops <path_to_the_extracted_shops_folder>
 ![preferredshops](https://user-images.githubusercontent.com/22826923/40513600-ce7f0d70-5f95-11e8-95b9-33c7f8ad77a8.png)
 
 ## Launch
-To launch this web application, you need to import the "nearbyshops" project in Eclipse, start your localhost server (wamp/xamp...), start the "MainNearbyShops.java" class, then go to your http://localhost:8080
+To launch this web application, you need to:
+1. Import the "nearbyshops" project in Eclipse.
+2. Make sue your localhost server (wamp/xamp...) is started.
+3. Run "MainNearbyShops.java" class as java application.
+4. Go to http://localhost:8080
