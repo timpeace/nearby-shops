@@ -63,3 +63,7 @@ To launch this web application, you need to:
 3. Make sure mongodb server is started (with "**mongod**" command).
 4. Run "MainNearbyShops.java" class as java application.
 5. Go to http://localhost:8080
+
+## Video Tutorial - How To Setup and Run
+
+https://www.youtube.com/watch?v=qsD8Fg0RQ70
