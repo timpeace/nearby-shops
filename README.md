@@ -66,5 +66,5 @@ To launch this web application, you need to:
 
 ## Video Tutorial - How To Setup and Run
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=qsD8Fg0RQ70" target="_blank"><img src="http://img.youtube.com/vi/qsD8Fg0RQ70/0.jpg" 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=qsD8Fg0RQ70" target="_blank"><img src="https://user-images.githubusercontent.com/22826923/40578342-f864e980-6101-11e8-951d-9ebce8d8ef07.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
